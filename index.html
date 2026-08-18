@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SHOPLY | Online Store</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Top bar -->
+  <div class="topbar">
+    <p>Free shipping on orders over $50 | New arrivals every week</p>
+  </div>
+
+  <!-- Header -->
+  <header class="header">
+    <div class="container header-inner">
+      <a href="#" class="logo">SHOP<span>LY</span></a>
+
+      <nav class="nav">
+        <ul>
+          <li><a href="#" class="active">Home</a></li>
+          <li><a href="#categories">Shop</a></li>
+          <li><a href="#deals">Deals</a></li>
+          <li><a href="#products">New Arrivals</a></li>
+          <li><a href="#footer">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-actions">
+        <div class="search-box">
+          <input type="text" placeholder="Search products...">
+          <button aria-label="Search">
+            <svg viewBox="0 0 24 24"><path d="M21 21l-4.35-4.35m1.85-5.15a7 7 0 11-14 0 7 7 0 0114 0z" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round"/></svg>
+          </button>
+        </div>
+        <button class="icon-btn" aria-label="Account">
+          <svg viewBox="0 0 24 24"><path d="M12 12a5 5 0 100-10 5 5 0 000 10zM3 22c0-4.97 4.03-9 9-9s9 4.03 9 9" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round"/></svg>
+        </button>
+        <button class="icon-btn cart-btn" aria-label="Cart">
+          <svg viewBox="0 0 24 24"><path d="M6 6h15l-1.5 9h-12z" stroke="currentColor" stroke-width="2" fill="none" stroke-linejoin="round"/><circle cx="9" cy="20" r="1.5"/><circle cx="18" cy="20" r="1.5"/><path d="M3 3h2l1 3" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round"/></svg>
+          <span class="cart-count">3</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="container hero-inner">
+      <div class="hero-text">
+        <p class="hero-tag">Autumn Collection 2026</p>
+        <h1>Discover Styles <br> That Define <span>You</span></h1>
+        <p class="hero-desc">Shop the latest trends in fashion, electronics and home essentials — all in one place, at prices you'll love.</p>
+        <div class="hero-buttons">
+          <a href="#products" class="btn btn-primary">Shop Now</a>
+          <a href="#categories" class="btn btn-outline">Explore Categories</a>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <div class="hero-card hero-card-1">
+          <span class="badge">-30%</span>
+          <div class="hero-card-thumb thumb-a"></div>
+          <p>Wireless Headphones</p>
+          <strong>$59.99</strong>
+        </div>
+        <div class="hero-card hero-card-2">
+          <div class="hero-card-thumb thumb-b"></div>
+          <p>Running Sneakers</p>
+          <strong>$89.00</strong>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Features strip -->
+  <section class="features">
+    <div class="container features-grid">
+      <div class="feature">
+        <svg viewBox="0 0 24 24"><path d="M3 3h18v13H3zM8 21h8M12 16v5" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        <div><strong>Free Shipping</strong><span>On all orders over $50</span></div>
+      </div>
+      <div class="feature">
+        <svg viewBox="0 0 24 24"><path d="M12 2l3 6 7 1-5 5 1 7-6-3-6 3 1-7-5-5 7-1z" stroke="currentColor" stroke-width="2" fill="none" stroke-linejoin="round"/></svg>
+        <div><strong>Top Quality</strong><span>Guaranteed genuine products</span></div>
+      </div>
+      <div class="feature">
+        <svg viewBox="0 0 24 24"><path d="M12 22s8-4.5 8-11V5l-8-3-8 3v6c0 6.5 8 11 8 11z" stroke="currentColor" stroke-width="2" fill="none" stroke-linejoin="round"/></svg>
+        <div><strong>Secure Payment</strong><span>100% protected checkout</span></div>
+      </div>
+      <div class="feature">
+        <svg viewBox="0 0 24 24"><path d="M21 12a9 9 0 11-9-9" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round"/><path d="M21 3v6h-6" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        <div><strong>Easy Returns</strong><span>30-day return policy</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Categories -->
+  <section class="categories" id="categories">
+    <div class="container">
+      <div class="section-heading">
+        <h2>Shop by Category</h2>
+        <p>Browse our most popular collections</p>
+      </div>
+      <div class="category-grid">
+        <a href="#" class="category-card">
+          <div class="category-icon cat-electronics"></div>
+          <span>Electronics</span>
+        </a>
+        <a href="#" class="category-card">
+          <div class="category-icon cat-fashion"></div>
+          <span>Fashion</span>
+        </a>
+        <a href="#" class="category-card">
+          <div class="category-icon cat-home"></div>
+          <span>Home &amp; Living</span>
+        </a>
+        <a href="#" class="category-card">
+          <div class="category-icon cat-beauty"></div>
+          <span>Beauty</span>
+        </a>
+        <a href="#" class="category-card">
+          <div class="category-icon cat-sports"></div>
+          <span>Sports</span>
+        </a>
+        <a href="#" class="category-card">
+          <div class="category-icon cat-toys"></div>
+          <span>Toys &amp; Kids</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Deal Banner -->
+  <section class="deal-banner" id="deals">
+    <div class="container deal-inner">
+      <div class="deal-text">
+        <p class="deal-tag">Limited Time Offer</p>
+        <h2>End of Season Sale — Up to 50% Off</h2>
+        <p>Refresh your wardrobe and home before the new season arrives.</p>
+        <div class="countdown">
+          <div class="count-box"><strong>02</strong><span>Days</span></div>
+          <div class="count-box"><strong>14</strong><span>Hours</span></div>
+          <div class="count-box"><strong>36</strong><span>Mins</span></div>
+          <div class="count-box"><strong>50</strong><span>Secs</span></div>
+        </div>
+        <a href="#products" class="btn btn-light">Grab the Deal</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Products -->
+  <section class="products" id="products">
+    <div class="container">
+      <div class="section-heading">
+        <h2>Featured Products</h2>
+        <p>Hand-picked items just for you</p>
+      </div>
+
+      <div class="product-grid">
+
+        <article class="product-card">
+          <div class="product-thumb thumb-1">
+            <span class="tag tag-sale">-20%</span>
+            <button class="wish-btn" aria-label="Add to wishlist">♡</button>
+          </div>
+          <div class="product-info">
+            <span class="product-cat">Electronics</span>
+            <h3>Bluetooth Speaker</h3>
+            <div class="rating">★★★★☆ <span>(120)</span></div>
+            <div class="price-row">
+              <span class="price">$39.99</span>
+              <span class="old-price">$49.99</span>
+            </div>
+            <button class="btn btn-add">Add to Cart</button>
+          </div>
+        </article>
+
+        <article class="product-card">
+          <div class="product-thumb thumb-2">
+            <span class="tag tag-new">New</span>
+            <button class="wish-btn" aria-label="Add to wishlist">♡</button>
+          </div>
+          <div class="product-info">
+            <span class="product-cat">Fashion</span>
+            <h3>Classic Denim Jacket</h3>
+            <div class="rating">★★★★★ <span>(98)</span></div>
+            <div class="price-row">
+              <span class="price">$74.00</span>
+            </div>
+            <button class="btn btn-add">Add to Cart</button>
+          </div>
+        </article>
+
+        <article class="product-card">
+          <div class="product-thumb thumb-3">
+            <button class="wish-btn" aria-label="Add to wishlist">♡</button>
+          </div>
+          <div class="product-info">
+            <span class="product-cat">Home &amp; Living</span>
+            <h3>Ceramic Coffee Set</h3>
+            <div class="rating">★★★★☆ <span>(64)</span></div>
+            <div class="price-row">
+              <span class="price">$28.50</span>
+            </div>
+            <button class="btn btn-add">Add to Cart</button>
+          </div>
+        </article>
+
+        <article class="product-card">
+          <div class="product-thumb thumb-4">
+            <span class="tag tag-sale">-15%</span>
+            <button class="wish-btn" aria-label="Add to wishlist">♡</button>
+          </div>
+          <div class="product-info">
+            <span class="product-cat">Sports</span>
+            <h3>Performance Sneakers</h3>
+            <div class="rating">★★★★★ <span>(210)</span></div>
+            <div class="price-row">
+              <span class="price">$89.00</span>
+              <span class="old-price">$105.00</span>
+            </div>
+            <button class="btn btn-add">Add to Cart</button>
+          </div>
+        </article>
+
+        <article class="product-card">
+          <div class="product-thumb thumb-5">
+            <button class="wish-btn" aria-label="Add to wishlist">♡</button>
+          </div>
+          <div class="product-info">
+            <span class="product-cat">Beauty</span>
+            <h3>Skincare Gift Set</h3>
+            <div class="rating">★★★★☆ <span>(77)</span></div>
+            <div class="price-row">
+              <span class="price">$32.00</span>
+            </div>
+            <button class="btn btn-add">Add to Cart</button>
+          </div>
+        </article>
+
+        <article class="product-card">
+          <div class="product-thumb thumb-6">
+            <span class="tag tag-new">New</span>
+            <button class="wish-btn" aria-label="Add to wishlist">♡</button>
+          </div>
+          <div class="product-info">
+            <span class="product-cat">Electronics</span>
+            <h3>Smart Watch Series 5</h3>
+            <div class="rating">★★★★★ <span>(156)</span></div>
+            <div class="price-row">
+              <span class="price">$129.00</span>
+            </div>
+            <button class="btn btn-add">Add to Cart</button>
+          </div>
+        </article>
+
+        <article class="product-card">
+          <div class="product-thumb thumb-7">
+            <button class="wish-btn" aria-label="Add to wishlist">♡</button>
+          </div>
+          <div class="product-info">
+            <span class="product-cat">Toys &amp; Kids</span>
+            <h3>Wooden Puzzle Set</h3>
+            <div class="rating">★★★★☆ <span>(41)</span></div>
+            <div class="price-row">
+              <span class="price">$18.75</span>
+            </div>
+            <button class="btn btn-add">Add to Cart</button>
+          </div>
+        </article>
+
+        <article class="product-card">
+          <div class="product-thumb thumb-8">
+            <span class="tag tag-sale">-10%</span>
+            <button class="wish-btn" aria-label="Add to wishlist">♡</button>
+          </div>
+          <div class="product-info">
+            <span class="product-cat">Home &amp; Living</span>
+            <h3>Cotton Throw Blanket</h3>
+            <div class="rating">★★★★☆ <span>(53)</span></div>
+            <div class="price-row">
+              <span class="price">$24.30</span>
+              <span class="old-price">$27.00</span>
+            </div>
+            <button class="btn btn-add">Add to Cart</button>
+          </div>
+        </article>
+
+      </div>
+
+      <div class="view-more">
+        <a href="#" class="btn btn-outline">View All Products</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Newsletter -->
+  <section class="newsletter">
+    <div class="container newsletter-inner">
+      <h2>Join Our Newsletter</h2>
+      <p>Subscribe to get special offers, free giveaways, and new arrivals.</p>
+      <form class="newsletter-form">
+        <input type="email" placeholder="Enter your email address" required>
+        <button type="submit" class="btn btn-primary">Subscribe</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer" id="footer">
+    <div class="container footer-grid">
+      <div class="footer-col">
+        <a href="#" class="logo">SHOP<span>LY</span></a>
+        <p>Your one-stop shop for fashion, electronics, and home essentials — quality guaranteed.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Shop</h4>
+        <ul>
+          <li><a href="#">New Arrivals</a></li>
+          <li><a href="#">Best Sellers</a></li>
+          <li><a href="#">Deals</a></li>
+          <li><a href="#">Gift Cards</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Customer Service</h4>
+        <ul>
+          <li><a href="#">Contact Us</a></li>
+          <li><a href="#">Shipping Info</a></li>
+          <li><a href="#">Returns</a></li>
+          <li><a href="#">FAQs</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Company</h4>
+        <ul>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Careers</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Terms of Service</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <p>&copy; 2026 SHOPLY. All rights reserved.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
