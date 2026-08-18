@@ -20,11 +20,11 @@
 
       <nav class="nav">
         <ul>
-          <li><a href="#" class="active">Home</a></li>
-          <li><a href="#categories">Shop</a></li>
-          <li><a href="#deals">Deals</a></li>
-          <li><a href="#products">New Arrivals</a></li>
-          <li><a href="#footer">Contact</a></li>
+          <li><a href="#home" class="active" data-nav>Home</a></li>
+          <li><a href="#categories" data-nav>Shop</a></li>
+          <li><a href="#deals" data-nav>Deals</a></li>
+          <li><a href="#products" data-nav>New Arrivals</a></li>
+          <li><a href="#footer" data-nav>Contact</a></li>
         </ul>
       </nav>
 
@@ -47,7 +47,7 @@
   </header>
 
   <!-- Hero -->
-  <section class="hero">
+  <section class="hero" id="home">
     <div class="container hero-inner">
       <div class="hero-text">
         <p class="hero-tag">Autumn Collection 2026</p>
@@ -61,12 +61,12 @@
       <div class="hero-visual">
         <div class="hero-card hero-card-1">
           <span class="badge">-30%</span>
-          <div class="hero-card-thumb thumb-a"></div>
+          <img class="hero-card-thumb" src="images/hero-headphones.svg" alt="Wireless Headphones">
           <p>Wireless Headphones</p>
           <strong>$59.99</strong>
         </div>
         <div class="hero-card hero-card-2">
-          <div class="hero-card-thumb thumb-b"></div>
+          <img class="hero-card-thumb" src="images/hero-sneakers.svg" alt="Running Sneakers">
           <p>Running Sneakers</p>
           <strong>$89.00</strong>
         </div>
@@ -105,27 +105,27 @@
       </div>
       <div class="category-grid">
         <a href="#" class="category-card">
-          <div class="category-icon cat-electronics"></div>
+          <img class="category-icon" src="images/cat-electronics.svg" alt="Electronics">
           <span>Electronics</span>
         </a>
         <a href="#" class="category-card">
-          <div class="category-icon cat-fashion"></div>
+          <img class="category-icon" src="images/cat-fashion.svg" alt="Fashion">
           <span>Fashion</span>
         </a>
         <a href="#" class="category-card">
-          <div class="category-icon cat-home"></div>
+          <img class="category-icon" src="images/cat-home.svg" alt="Home & Living">
           <span>Home &amp; Living</span>
         </a>
         <a href="#" class="category-card">
-          <div class="category-icon cat-beauty"></div>
+          <img class="category-icon" src="images/cat-beauty.svg" alt="Beauty">
           <span>Beauty</span>
         </a>
         <a href="#" class="category-card">
-          <div class="category-icon cat-sports"></div>
+          <img class="category-icon" src="images/cat-sports.svg" alt="Sports">
           <span>Sports</span>
         </a>
         <a href="#" class="category-card">
-          <div class="category-icon cat-toys"></div>
+          <img class="category-icon" src="images/cat-toys.svg" alt="Toys & Kids">
           <span>Toys &amp; Kids</span>
         </a>
       </div>
@@ -161,7 +161,8 @@
       <div class="product-grid">
 
         <article class="product-card">
-          <div class="product-thumb thumb-1">
+          <div class="product-thumb">
+            <img class="product-img" src="images/product-speaker.svg" alt="Bluetooth Speaker">
             <span class="tag tag-sale">-20%</span>
             <button class="wish-btn" aria-label="Add to wishlist">♡</button>
           </div>
@@ -178,7 +179,8 @@
         </article>
 
         <article class="product-card">
-          <div class="product-thumb thumb-2">
+          <div class="product-thumb">
+            <img class="product-img" src="images/product-jacket.svg" alt="Classic Denim Jacket">
             <span class="tag tag-new">New</span>
             <button class="wish-btn" aria-label="Add to wishlist">♡</button>
           </div>
@@ -194,7 +196,8 @@
         </article>
 
         <article class="product-card">
-          <div class="product-thumb thumb-3">
+          <div class="product-thumb">
+            <img class="product-img" src="images/product-coffee.svg" alt="Ceramic Coffee Set">
             <button class="wish-btn" aria-label="Add to wishlist">♡</button>
           </div>
           <div class="product-info">
@@ -209,7 +212,8 @@
         </article>
 
         <article class="product-card">
-          <div class="product-thumb thumb-4">
+          <div class="product-thumb">
+            <img class="product-img" src="images/product-sneakers.svg" alt="Performance Sneakers">
             <span class="tag tag-sale">-15%</span>
             <button class="wish-btn" aria-label="Add to wishlist">♡</button>
           </div>
@@ -226,7 +230,8 @@
         </article>
 
         <article class="product-card">
-          <div class="product-thumb thumb-5">
+          <div class="product-thumb">
+            <img class="product-img" src="images/product-skincare.svg" alt="Skincare Gift Set">
             <button class="wish-btn" aria-label="Add to wishlist">♡</button>
           </div>
           <div class="product-info">
@@ -241,7 +246,8 @@
         </article>
 
         <article class="product-card">
-          <div class="product-thumb thumb-6">
+          <div class="product-thumb">
+            <img class="product-img" src="images/product-smartwatch.svg" alt="Smart Watch Series 5">
             <span class="tag tag-new">New</span>
             <button class="wish-btn" aria-label="Add to wishlist">♡</button>
           </div>
@@ -257,7 +263,8 @@
         </article>
 
         <article class="product-card">
-          <div class="product-thumb thumb-7">
+          <div class="product-thumb">
+            <img class="product-img" src="images/product-puzzle.svg" alt="Wooden Puzzle Set">
             <button class="wish-btn" aria-label="Add to wishlist">♡</button>
           </div>
           <div class="product-info">
@@ -272,7 +279,8 @@
         </article>
 
         <article class="product-card">
-          <div class="product-thumb thumb-8">
+          <div class="product-thumb">
+            <img class="product-img" src="images/product-blanket.svg" alt="Cotton Throw Blanket">
             <span class="tag tag-sale">-10%</span>
             <button class="wish-btn" aria-label="Add to wishlist">♡</button>
           </div>
@@ -348,5 +356,6 @@
     </div>
   </footer>
 
+  <script src="js/main.js" defer></script>
 </body>
 </html>
